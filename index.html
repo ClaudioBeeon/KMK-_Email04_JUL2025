@@ -3,45 +3,78 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kimika - Lançamento Exclusivo</title>
+    <title>Lançamento Imperdível - Kimika</title>
     <style type="text/css">
-        /* Client-specific Styles */
-        #outlook a { padding: 0; } /* Force Outlook to provide a "view in browser" button. */
-        body { width: 100% !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; margin: 0; padding: 0; }
-        .ExternalClass { width: 100%; } /* Force Hotmail to display emails at full width */
-        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div { line-height: 100%; }
-        img { outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; display: block; } /* Ensure images are block-level to avoid extra space */
-        a img { border: none; }
-        p { margin: 0; padding: 0; }
+        /* Reset styles for email clients */
+        body, #bodyTable, #bodyCell { height:100% !important; margin:0; padding:0; width:100% !important; }
         table { border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
-        td { border-collapse: collapse; }
+        img { border: 0; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
+        a img { border: none; }
+        .mcnPreviewText { display: none !important; }
 
         /* General Styling */
-        .full-width-table {
+        body {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            background-color: #f7f7f7; /* Um fundo levemente diferente para destacar o email */
+            margin: 0;
+            padding: 0;
+        }
+        #emailContainer {
             width: 100%;
             max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff; /* Fundo branco para o conteúdo principal */
+        }
+        .image-block {
+            display: block;
+            line-height: 0px; /* Important to remove extra space under images */
+            font-size: 0px; /* Important to remove extra space under images */
+        }
+        .image-block img {
+            width: 100%;
+            height: auto;
+            display: block; /* Ensures the image behaves as a block element */
+        }
+
+        /* Responsive adjustments for mobile (optional, but good practice) */
+        @media only screen and (max-width: 620px) {
+            #emailContainer {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .image-block img {
+                width: 100% !important;
+                height: auto !important;
+            }
         }
     </style>
 </head>
-<body bgcolor="#FFFFFF" style="margin: 0; padding: 0;">
-    <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
+<body bgcolor="#f7f7f7">
+    <span class="mcnPreviewText" style="display:none; font-size:0px; line-height:0px; max-height:0px; max-width:0px; opacity:0; overflow:hidden; visibility:hidden; mso-hide:all;">Descubra o lançamento exclusivo da Kimika! Uma nova coleção que vai te surpreender.</span>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" id="bodyTable" style="background-color: #f7f7f7;">
         <tr>
-            <td align="center" style="padding: 0;">
-                <table class="full-width-table" width="600" border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse; background-color: #FFFFFF;">
+            <td align="center" valign="top" id="bodyCell">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" id="emailContainer" style="max-width: 600px; background-color: #ffffff;">
                     <tr>
-                        <td align="center" style="padding: 0; font-size: 0pt; line-height: 0pt;">
-                            <img src="https://i.imgur.com/r8roqn2.png" alt="Descubra a Nova Coleção Kimika: Elegância e Estilo" width="600" style="display: block; width: 100%; max-width: 600px; height: auto;" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td align="center" style="padding: 0; font-size: 0pt; line-height: 0pt;">
-                            <a href="https://www.kimika.com.br/lancamento" target="_blank" style="text-decoration: none;">
-                                <img src="https://i.imgur.com/oiY7o0K.png" alt="Clique e Conheça o Lançamento Kimika Agora" width="600" style="display: block; width: 100%; max-width: 600px; height: auto; border: 0;" />
+                        <td align="center" valign="top" class="image-block">
+                            <a href="https://www.kimika.com.br/lancamento" target="_blank" style="display: block;">
+                                <img src="https://i.imgur.com/z7wyQOM.png" alt="Descubra o novo lançamento Kimika! Clique e confira." width="600" style="max-width: 600px;" />
                             </a>
                         </td>
                     </tr>
                     <tr>
-                        <td height="1" style="line-height: 1px; font-size: 1px;">&nbsp;</td>
+                        <td align="center" valign="top" class="image-block">
+                            <img src="https://i.imgur.com/hPFY66o.png" alt="Detalhes da nova coleção Kimika. Produtos exclusivos e de alta qualidade." width="600" style="max-width: 600px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" class="image-block">
+                            <a href="https://www.kimika.com.br/lancamento" target="_blank" style="display: block;">
+                                <img src="https://i.imgur.com/YpZC88y.png" alt="Clique aqui para explorar o lançamento Kimika agora!" width="600" style="max-width: 600px;" />
+                            </a>
+                        </td>
                     </tr>
                 </table>
             </td>
